@@ -1,125 +1,190 @@
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded"), function(){}
 
-    //Задание 1
-    const str = "abce";
-    console.log(str[0]);
-    console.log(str[1]);
-    console.log(str[3]);
+
+//     //Задание 1
+//     // const str = "abce";
+//     // console.log(str[0]);
+//     // console.log(str[1]);
+//     // console.log(str[3]);
     
-    //Задание 2
-    let num1 = parseInt(prompt("Введите первое число", "Напишите,пожалуйста!"));
-    let num2 = parseInt(prompt("Введите второе число", "Напишите,пожалуйста!"));
-    console.log(num1 > 0 || num2 > 0);
+//     //Задание 2
+//     // let num1 = parseInt(prompt("Введите первое число", "Напишите,пожалуйста!"));
+//     // let num2 = parseInt(prompt("Введите второе число", "Напишите,пожалуйста!"));
+//     // console.log(num1 > 0 || num2 > 0);
     
-    //Задание 3
-    let age = parseInt(prompt("Введите свой возраст", "Напишите,пожалуйста!"));
-    if (age >= 18){
-      console.log("Вы совершеннолетний ;)");
-    } else {
-      console.log("Вы несовершеннолетний ;(");
-    }
+//     //Задание 3
+//     // let age = parseInt(prompt("Введите свой возраст", "Напишите,пожалуйста!"));
+//     // if (age >= 18){
+//     //   console.log("Вы совершеннолетний ;)");
+//     // } else {
+//     //   console.log("Вы несовершеннолетний ;(");
+//     // }
     
-    //Мои варианты
-    let userAnswer = prompt("Ваша кошка: Сиамская? (да/другая)");
-    if (userAnswer.toLowerCase() === "да") {
-        let age = prompt("Сколько ей лет?", "Напишите, пожалуйста");
-        let ageNe = 20-age;
-        console.log(`Ваше животное уйдёт из мира в ${ageNe} лет9:()`);
-    } else if (userAnswer === "другая") {
-        let age = prompt("Сколько ей лет?", "Напишите, пожалуйста");
-        let ageNe = 10-age;
-        console.log(`Ваше животное уйдёт из мира в ${ageNe} лет!`);
-    } else {
-        console.log("Она будет долго вас радовать(");
-    }  
-    //задача 4
-let userInput = prompt("Введите число:");
+//     //Мои варианты
+//     // let userAnswer = prompt("Ваша кошка: Сиамская? (да/другая)");
+//     // if (userAnswer.toLowerCase() === "да") {
+//     //     let age = prompt("Сколько ей лет?", "Напишите, пожалуйста");
+//     //     let ageNe = 20-age;
+//     //     console.log(`Ваше животное уйдёт из мира в ${ageNe} лет9:()`);
+//     // } else if (userAnswer === "другая") {
+//     //     let age = prompt("Сколько ей лет?", "Напишите, пожалуйста");
+//     //     let ageNe = 10-age;
+//     //     console.log(`Ваше животное уйдёт из мира в ${ageNe} лет!`);
+//     // } else {
+//     //     console.log("Она будет долго вас радовать(");
+//     // }   
+    
+//     //let userAnswer = prompt("Вы проживаете в Москве? (да/нет, в другом городе.)");
+//    // if (userAnswer.toLowerCase() === "да") {
+//         //let country = prompt("Вы проживаете в России?"):
+//        // if (userAnswer.toLowerCase() === "да") {
+//         //consolelog ('Вы можете войти без регистрации ')
+//    // }
+//    // });
 
-let number = parseInt(userInput);
 
-if (number < 1) {
-    console.log("Пожалуйста, введите число больше 0.");
-} else {
-    for (let i = 1; i <= number; i++) {
-        console.log(i);
-    }
-}
-});
+// //Доп задание
 
-//задача 5
-let secretWord = prompt("Введите секретное слово:");
+//   //задача 4
+//   let userInput = prompt("Введите число:");
+//  let number = parseInt(userInput);
+//   if (number < 1) {
+//       console.log("Пожалуйста, введите число больше 0.");
+//  } else 
+//       for (let i = 1; i <= number; i++) {
+//           console.log(i);
+//      }
 
-if (secretWord === "JavaScript") {
-    console.log("Ты угадал!");
-} else {
-    console.log("Попробуй снова!");
-}
+// //задача 5
+// let secretWord = prompt("Введите секретное слово:");
+// if (secretWord === "JavaScript") {
+//    console.log("Ты угадал!");
+// } else {
+//     console.log("Попробуй снова!");
+// }
 
-//задача 6
-let userInput = prompt("Введите число:");
 
-if (userInput !== null) { // Проверяем, что пользователь не нажал "Отмена"
-    let number = parseInt(userInput); // Преобразуем ввод в целое число
+// //задача 6
+// const input = prompt("Пожалуйста, введите число:");
+// const number = parseInt(input, 10);
+// if (isNaN(number)) {
+//    console.log("Вы ввели не число.");
+// } else {
+//    if (number % 2 === 0) {
+//        console.log("Число чётное.");
+//     } else {
+//         console.log("Число нечётное.");
+//    }
+// }
 
-    if (!isNaN(number)) { // Проверяем, является ли введенное значение числом
-        if (number % 2 === 0) {
-            console.log("Число четное.");
-        } else {
-            console.log("Число нечетное.");
-        }
-    } else {
-        console.log("Пожалуйста, введите корректное число.");
-    }
-}
 
-//задача 7
-let userName = prompt("Введите ваше имя:");
+// //задача 7
+// const name = prompt("Пожалуйста, введите своё имя:");
+// if (name) {
+//     console.log("Привет, " + name + "!");
+// } else {
+//    console.log("Привет, незнакомец!");
+// }
 
-if (userName !== null && userName.trim() !== "") { // Проверяем, что пользователь не нажал "Отмена" и ввел непустое имя
-    console.log(Привет, ${userName}!);
-} else {
-    console.log("Вы не ввели имя.");
-}
 
-//задача 8
-let userInput = prompt("Введите число:");
+// //задача 8
+// const input = prompt("Пожалуйста, введите число:");
+// const number = parseFloat(input);
+// if (isNaN(number)) {
+//     console.log("Вы ввели не число.");
+// } else {
+//     const square = number * number;
+//    console.log("Квадрат числа: " + square);
+// }
 
-if (userInput !== null && !isNaN(userInput)) { // Проверяем, что пользователь не нажал "Отмена" и ввел число
-    let number = parseFloat(userInput); // Преобразуем ввод в число
-    let square = number * number; // Вычисляем квадрат числа
-    console.log(Квадрат числа ${number} равен ${square}.);
-} else {
-    console.log("Вы ввели некорректное значение.");
-}
+// //задача 9
+// const input = prompt("Пожалуйста, введите ваш возраст:");
+// const age = parseInt(input, 10);
+// if (isNaN(age)) {
+//    console.log("Вы ввели не число.");
+// } else {
+//    const futureAge = age + 5;
+//     console.log("Через 5 лет вам будет " + futureAge + " лет.");
+// }
 
-//задача 9
-let userInput = prompt("Введите ваш возраст:");
+// //задача 10
+// const word = prompt("Пожалуйста, введите слово:");
+// if (word) {
+//     console.log("Длина введённого слова: " + word.length);
+// } else {
+//    console.log("Вы не ввели слово.");
+// }
 
-if (userInput !== null && !isNaN(userInput)) { // Проверяем, что пользователь не нажал "Отмена" и ввел число
-    let age = parseInt(userInput); // Преобразуем ввод в целое число
-    let futureAge = age + 5; // Вычисляем возраст через 5 лет
-    console.log(Через 5 лет вам будет ${futureAge} лет.);
-} else {
-    console.log("Вы ввели некорректное значение.");
-}
 
-//задача 10
-let userInput = prompt("Введите слово:");
+// //задача 11
+// const word = prompt("Пожалуйста, введите слово:");
+// if (word) {
+//    console.log("Первый символ введённого слова: " + word.charAt(0));
+// } else {
+//     console.log("Вы не ввели слово.");
+// }
 
-if (userInput !== null) { // Проверяем, что пользователь не нажал "Отмена"
-    let wordLength = userInput.length; // Получаем длину слова
-    console.log(Длина введенного слова "${userInput}" составляет ${wordLength} символов.);
-} else {
-    console.log("Вы не ввели слово.");
-}
+// //ДЗ 2
 
-//задача 11
-let userInput = prompt("Введите слово:");
+// //задача 1
+// const age = prompt("Введите пожалуйста ваш возраст");
+// if (age < 55) {
+//     console.log("Вам ещё рано на пенсию( ");
+// } else {
+//     console.log("Поздравляем с пенсионным возрастом!) ");
+// }
 
-if (userInput !== null && userInput.length > 0) { // Проверяем, что пользователь не нажал "Отмена" и ввел слово
-    let firstCharacter = userInput.charAt(0); // Получаем первый символ слова
-    console.log(Первый символ введенного слова "${userInput}" - "${firstCharacter}".);
-} else {
-    console.log("Вы не ввели слово.");
-};
-   
+// //задача 2
+// const num1 = prompt("Введите пожалуйста первое число ");
+// const num2 = prompt("Введите пожалуйста второе число ");
+// if (num1 > num2) {
+//     console.log("Первое число больше");
+// } else if (num1 < num2) {
+//     console.log("Второе число больше");
+// } else {
+//     console.log("Числа равны, вы молодец!");
+// }
+
+// //задача 3
+// const number = prompt("Введите пожалуйста число.");
+// if (number % 2 === 0) {
+//     console.log("Это число чётное.");
+// } else {
+//     console.log ("Это чисдо нечётное");
+// }
+
+// //задача 4
+// const number = prompt("Введите число:");
+// if (number > 150) {
+//     console.log("Большое число");
+// } else if (number < 150) {
+//     console.log("Маленькое число");
+// } else {
+//     console.log("Точно 150!");
+// }
+
+// //задача 5
+// const secretNumber = 13;
+// const userGuess = prompt("Угадайте число от 1 до 18:");
+// if (userGuess == secretNumber) {
+//     console.log("Вы угадали!");
+// } else {
+//     console.log("Попробуйте ещё раз!");
+// }
+
+// //задача 6
+// const login = prompt("Введите логин");
+// const password = prompt("Введите пароль");
+// if (login === "admin" && password === "12354") {
+//     console.log("Добро пожаловать!");
+// } else {
+//     console.log("Неверный логин или пароль");
+// }
+
+// //задача 7
+// const year = prompt("Введите год");
+// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//     console.log("Это високосный год");
+// } else {
+//     console.log("Это не високосный год");
+// }
