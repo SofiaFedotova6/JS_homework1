@@ -46,14 +46,14 @@ document.addEventListener("DOMContentLoaded"), function(){}
 // //Доп задание
 
 //   //задача 4
-//   let userInput = prompt("Введите число:");
-//  let number = parseInt(userInput);
-//   if (number < 1) {
-//       console.log("Пожалуйста, введите число больше 0.");
-//  } else 
-//       for (let i = 1; i <= number; i++) {
-//           console.log(i);
-//      }
+let userInput = prompt("Введите число:");
+  let number = parseInt(userInput);
+   if (number < 1) {
+       console.log("Пожалуйста, введите число больше 0.");
+  } else 
+      for (let i = 1; i <= number; i++) {
+          console.log(i);
+    }
 
 // //задача 5
 // let secretWord = prompt("Введите секретное слово:");
